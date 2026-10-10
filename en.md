@@ -15,6 +15,7 @@ We send data to our servers only when you use the features listed below.
 ## 1. What we process and why
 
 ### Stored only on your phone (never sent to us)
+
 | Data | Purpose |
 |---|---|
 | Alarm settings, affinity and wake-streak records, episodes viewed | Alarms and characters |
@@ -23,6 +24,7 @@ We send data to our servers only when you use the features listed below.
 | Motion data for the steps mission (accelerometer) | Checking the mission. Not stored |
 
 ### Stored on our servers
+
 | Feature | Data | Kept until |
 |---|---|---|
 | Account | An anonymous account ID. If you link Google, your Google account email and ID | You delete your account |
@@ -43,6 +45,7 @@ We send data to our servers only when you use the features listed below.
   speech recognition service (for example Google) may process it. The app does not store the audio or send it to us.
 
 ## 2. Legal bases (EEA/UK users)
+
 | Processing | Legal basis (GDPR Art. 6) |
 |---|---|
 | Account, backup, couple mode, subscription | Performance of a contract (providing the features you use) |
@@ -51,6 +54,7 @@ We send data to our servers only when you use the features listed below.
 | Security of the service (e.g. hashed device secrets, daily limits) | Legitimate interests |
 
 ## 3. Permissions
+
 | Permission | Purpose | If you deny it |
 |---|---|---|
 | Notifications, full-screen notifications | Show the alarm screen over the lock screen | The alarm screen may appear late or not at all |
