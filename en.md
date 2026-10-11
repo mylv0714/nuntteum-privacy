@@ -19,7 +19,7 @@ We send data to our servers only when you use the features listed below.
 | Data | Purpose |
 |---|---|
 | Alarm settings, affinity and wake-streak records, episodes viewed | Alarms and characters |
-| Goals, daily tasks (calendar), mood, notes | Planner |
+| Goals, daily tasks (calendar), notes | Planner |
 | Voices you record or import ("my person") | Played by your alarms |
 | Motion data for the steps mission (accelerometer) | Checking the mission. Not stored |
 
