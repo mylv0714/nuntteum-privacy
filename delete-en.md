@@ -24,6 +24,7 @@ If you uninstalled the app or can't open it, email **mylvoh0714@gmail.com** to r
 - Your account (anonymous account ID, and the linked Google account email and ID)
 - Server backups (alarm settings, progress records, planner and notes)
 - Couple pairing, morning-call recordings, nudges and wake-up records
+- Goals with friends: your check-ins, check-in notes and photos, cheers and nudges, reports and blocks. A group you are the last member of is deleted entirely.
 - Subscription records and daily usage counts
 
 All of it is deleted **immediately** and not kept anywhere.

@@ -7,7 +7,7 @@ lang: en
 
 # Nuntteum Privacy Policy
 
-Effective date: 2026-10-12
+Effective date: 2026-10-17
 
 Nuntteum ("the app", "we") is an alarm app. Its core features (alarms, missions, planner, voices) work **only on your phone, without our servers**.
 We send data to our servers only when you use the features listed below.
@@ -31,6 +31,9 @@ We send data to our servers only when you use the features listed below.
 | Backup (automatic and manual) | From the list above: alarm settings, progress records and planner content (including notes). **Voice files are not included** | You delete your account (each backup replaces the previous one) |
 | Couple mode | The name your partner sees, whether your alarm is ringing, the date and time you finished your mission, nudges, the couple wake streak | You unpair or delete your account |
 | Couple morning calls | A voice recording you send to your partner (up to 30 seconds) | It's replaced by a new one, you unpair, or you delete your account |
+| Goals with friends | The group goal (title, times per week, duration), the name your friends see, your daily check-ins, check-in notes, cheers and nudges sent and received | You leave the group or delete your account |
+| Check-in photos | A photo you choose when checking in (optional, resized to at most 1080px) | 30 days after the goal ends, or earlier if you delete the check-in, leave the group, or delete your account |
+| Reports and blocks | Check-ins you report and why, people you block | Reports until the reported check-in is removed; blocks until you delete your account |
 | Subscription | Google Play purchase token, product, expiry time, status | You delete your account |
 | Daily limits | Number of requests per day for personalized lines and character voices, and the date they were counted on | You delete your account |
 
@@ -48,10 +51,10 @@ We send data to our servers only when you use the features listed below.
 
 | Processing | Legal basis (GDPR Art. 6) |
 |---|---|
-| Account, backup, couple mode, subscription | Performance of a contract (providing the features you use) |
+| Account, backup, couple mode, goals with friends, subscription | Performance of a contract (providing the features you use) |
 | Personalized lines, character voices | Consent (you can turn personalized lines off in Settings at any time) |
 | Microphone use | Consent (Android permission, can be withdrawn in system settings) |
-| Security of the service (e.g. hashed device secrets, daily limits) | Legitimate interests |
+| Security of the service (e.g. hashed device secrets, daily limits, reviewing reported content) | Legitimate interests |
 
 ## 3. Permissions
 
@@ -62,30 +65,35 @@ We send data to our servers only when you use the features listed below.
 | Microphone (optional) | Read-aloud mission, recording voices and morning calls | Only those features are unavailable |
 | Battery optimization exception (optional) | Prevent power saving from delaying alarms | Alarms may be late on some phones |
 
+For check-in photos, the app receives only the single photo you pick with your camera app or the system photo picker. It does not access your photo library (no extra permission).
+
 ## 4. Service providers and international transfers
 We do not sell your data or use it for advertising. These companies process data to run the service:
 
 | Company | What they do |
 |---|---|
-| Supabase Inc. | Hosting accounts, backups, couple mode and subscription records |
+| Supabase Inc. | Hosting accounts, backups, couple mode, goals with friends (including check-in photos) and subscription records |
 | OpenRouter, Inc. / Google LLC | Writing personalized lines (see section 1) |
 | Google LLC | Google sign-in, Google Play billing and subscription checks, Cloud Text-to-Speech |
 
-- Account, backup, couple and subscription records are stored on Supabase servers in **South Korea (Seoul, AWS ap-northeast-2)**.
+- Account, backup, couple, goals-with-friends and subscription records are stored on Supabase servers in **South Korea (Seoul, AWS ap-northeast-2)**.
   For EEA users, this transfer is covered by the European Commission's adequacy decision for the Republic of Korea.
 - Personalized lines and character voices are processed on OpenRouter and Google servers in the **United States** and elsewhere, over encrypted connections (HTTPS), and are not stored.
   These transfers rely on the European Commission's Standard Contractual Clauses in our providers' data processing agreements.
 - Google sign-in and Google Play billing are handled under Google's policies.
+- In goals with friends, your name, check-ins, check-in photos and notes, and cheers are shown, at your choice, **only to the friends in the same group (up to 6 people)**.
 
 ## 5. Retention and deletion
-- **Settings > Delete account** immediately deletes everything on our servers (account, backups, couple pairing and morning calls, subscription records).
+- **Settings > Delete account** immediately deletes everything on our servers (account, backups, couple pairing and morning calls, goals-with-friends records and photos, subscription records).
 - Unpairing deletes both partners' couple records and morning-call recordings.
+- Leaving a group deletes your check-ins, notes and photos. When the last person leaves, the whole group is deleted. Check-in photos are deleted automatically 30 days after the goal ends.
+- A reported check-in is hidden from the reporter right away and from everyone once two people report it. We may review and remove reported check-ins.
 - Data on your phone is deleted when you uninstall the app.
 - Deleting your account does not cancel a subscription. Cancel it in Google Play.
 
 ## 6. Your rights
 You can access, correct, delete, or export your data, object to or restrict processing, and withdraw consent at any time.
-In the app you can restore backups, turn off personalized lines, unpair, and delete your account. For anything else, contact us below.
+In the app you can restore backups, turn off personalized lines, unpair, delete check-ins, leave groups, and delete your account. For anything else, contact us below.
 EEA/UK users can also complain to their local data protection authority.
 
 ## 7. Children
@@ -94,7 +102,7 @@ If you believe a child has given us personal data, contact us and we will delete
 
 ## 8. Security
 - Server connections are encrypted (HTTPS).
-- Server data is protected by access rules so only your own account can reach it. Morning-call audio is kept in private storage and downloaded only through short-lived links.
+- Server data is protected by access rules so only your own account can reach it. Morning-call audio and check-in photos are kept in private storage and downloaded only through short-lived links, which are given only to members of the same group for photos.
 - The device secret used by alarms in couple mode is stored only as a hash, not in plain text.
 
 ## 9. Contact
